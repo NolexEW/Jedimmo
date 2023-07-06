@@ -7,7 +7,7 @@ jobs:
   docker_build_push_acr:
     name: 'Docker Jedimmo'
     runs-on: ubuntu-latest
-    environment: production
+    environment: Hackathon
   
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
